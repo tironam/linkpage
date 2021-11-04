@@ -1,9 +1,17 @@
 import React from 'react'
 
-const TextBanner = () => {
+const TextBanner = props => {
+    const {
+        title,
+        text
+    } = props
+
 
     return (
-
+        <div>
+            <h1>{title}</h1>
+            <p>{text}</p>
+        </div>
     )
 }
 
