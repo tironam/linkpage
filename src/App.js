@@ -1,9 +1,16 @@
 import React from 'react'
 import LinkButton from './components/LinkButton'
+import TextBanner from './components/TextBanner'
+import ProfilePic from './components/ProfilePic'
 
 function App() {
   return (
     <div>
+      
+      <TextBanner
+        title="Michael Tirona @tironam"
+        text="Web Developer | Artist | Content Creator"
+      />
       <LinkButton 
         name="Follow me on Instagram" 
         link="https://www.instagram.com/tironam/"
@@ -17,6 +24,7 @@ function App() {
         link="https://www.instagram.com/tironadraws/"
       />
       <LinkButton
+        title="For web development inquiries"
         name="Web Development Portfolio"
         link="https://tironam.com/"
       />
