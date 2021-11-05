@@ -2,13 +2,19 @@ import React from 'react'
 import LinkButton from './components/LinkButton'
 import TextBanner from './components/TextBanner'
 import ProfilePic from './components/ProfilePic'
+import picture from './tironam.jpg'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import './App.css'
 
 function App() {
+
   return (
-    <div>
-      
+    <div style={{ "textAlign": "center" }}>
+      <ProfilePic
+        picture={picture}
+      />
       <TextBanner
-        title="Michael Tirona @tironam"
+        title="Michael Tirona | @tironam"
         text="Web Developer | Artist | Content Creator"
       />
       <LinkButton 
