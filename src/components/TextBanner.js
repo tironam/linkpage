@@ -10,17 +10,19 @@ const TextBanner = props => {
         title: {
             fontFamily: "Arial",
             margin: "20px",
-            fontSize: "35px",
-            color: "white"
+            fontSize: "25px",
+            color: "white",
+            textShadow: "1px 1px 4px #000000"
         },
         headline: {
             fontFamily: "Arial",
             margin: "20px",
-            fontSize: "20px",
+            fontSize: "17px",
             color: "white"
         },
         box: {
-            marginBottom: "40px"
+            marginBottom: "55px",
+            textShadow: "1px 1px 4px #000000"
         }
     })
 
