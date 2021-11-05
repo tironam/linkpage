@@ -12,6 +12,7 @@ function App() {
     <div style={{ "textAlign": "center" }}>
       <ProfilePic
         picture={picture}
+        alt="Picture of Michael Tirona dressed as a Ghostbuster"
       />
       <TextBanner
         title="Michael Tirona | @tironam"
