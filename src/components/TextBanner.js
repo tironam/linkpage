@@ -3,12 +3,14 @@ import React from 'react'
 const TextBanner = props => {
     const {
         title,
+        title2,
         text
     } = props
 
     const myStyles = ({
         title: {
             fontFamily: "Arial",
+            fontWeight: "bold",
             margin: "20px",
             fontSize: "25px",
             color: "white",
@@ -30,6 +32,7 @@ const TextBanner = props => {
     return (
         <div style={myStyles.box}>
             <h1 style={myStyles.title}>{title}</h1>
+            <h1 style={myStyles.title}>{title2}</h1>
             <p style={myStyles.headline}>{text}</p>
         </div>
     )
