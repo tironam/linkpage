@@ -1,23 +1,19 @@
 import React from 'react'
 
-const TextBanner = props => {
-    const {
-        title,
-        text
-    } = props
+const Contact = () => {
 
     const myStyles = ({
         title: {
             fontFamily: "Monaco",
             fontWeight: "bold",
-            margin: "20px",
+            margin: "20px 20px 0px 20px",
             fontSize: "19px",
             color: "white",
             // textShadow: "1px 1px 4px #000000"
         },
         headline: {
             fontFamily: "Monaco",
-            margin: "20px",
+            margin: "5px 20px 20px 20px",
             fontSize: "15px",
             color: "white"
         },
@@ -30,10 +26,10 @@ const TextBanner = props => {
 
     return (
         <div style={myStyles.box}>
-            <h1 style={myStyles.title}>{title}</h1>
-            <p style={myStyles.headline}>{text}</p>
+            <p style={myStyles.title}>For business inquires:</p>
+            <a style={myStyles.headline} href="mailto:tironamichael@gmail.com">tironamichael@gmail.com</a>
         </div>
     )
 }
 
-export default TextBanner
+export default Contact
