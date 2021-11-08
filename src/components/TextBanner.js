@@ -9,22 +9,22 @@ const TextBanner = props => {
 
     const myStyles = ({
         title: {
-            fontFamily: "Arial",
+            fontFamily: "Monaco",
             fontWeight: "bold",
             margin: "20px",
-            fontSize: "25px",
+            fontSize: "19px",
             color: "white",
-            textShadow: "1px 1px 4px #000000"
+            // textShadow: "1px 1px 4px #000000"
         },
         headline: {
-            fontFamily: "Arial",
+            fontFamily: "Monaco",
             margin: "20px",
-            fontSize: "17px",
+            fontSize: "15px",
             color: "white"
         },
         box: {
-            marginBottom: "55px",
-            textShadow: "1px 1px 4px #000000"
+            marginBottom: "35px",
+            // textShadow: "1px 1px 4px #000000"
         }
     })
 
@@ -32,7 +32,6 @@ const TextBanner = props => {
     return (
         <div style={myStyles.box}>
             <h1 style={myStyles.title}>{title}</h1>
-            <h1 style={myStyles.title}>{title2}</h1>
             <p style={myStyles.headline}>{text}</p>
         </div>
     )

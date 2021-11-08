@@ -2,12 +2,32 @@ import React from 'react'
 
 const ProfilePic = props => {
     const {
+        name,
         picture,
         alt
     } = props 
 
+    const myStyles = ({
+        title: {
+            fontFamily: "Monaco",
+            fontWeight: "bold",
+            marginTop: "45px",
+            fontSize: "25px",
+            color: "white",
+            // textShadow: "1px 1px 4px #000000"
+        },
+        pic: {
+            maxHeight: "185px",
+            borderRadius: "200px",
+            margin: "15px"
+        }
+    })
+
     return (
-        <img style={{ "maxHeight": "185px", "borderRadius": "200px", "margin": "45px 45px 15px 45px", "boxShadow": "0 4px 12px 0 rgba(0, 0, 0, 0.4), 0 20px 30px 0 rgba(0, 0, 0, 0.3)" }} alt={alt} src={picture} />
+        <div>
+            <h1 style={myStyles.title}>{name}</h1>
+            <img style={myStyles.pic} alt={alt} src={picture} />
+        </div>
     )
 }
 
