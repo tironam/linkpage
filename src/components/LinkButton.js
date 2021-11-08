@@ -5,7 +5,8 @@ const LinkButton = props => {
     const {
         name,
         title,
-        link
+        link,
+        logo
     } = props
 
     const myStyles = ({
@@ -28,7 +29,7 @@ const LinkButton = props => {
     return (
         <div style={myStyles.myMargin}>
             <h3 style={myStyles.btnText}>{title}</h3>
-            <Button style={myStyles.btn}color="danger" class="btn btn-primary btn-lg" href={link} target="blank">{name}</Button>
+            <Button style={myStyles.btn} color="danger" class="btn btn-danger btn-lg btn-block" href={link} target="blank">{name} {logo}</Button>
         </div>
     )
 }
