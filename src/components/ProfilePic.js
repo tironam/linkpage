@@ -14,7 +14,7 @@ const ProfilePic = props => {
             marginTop: "45px",
             fontSize: "25px",
             color: "white",
-            // textShadow: "1px 1px 4px #000000"
+            textShadow: "2px 3px 2px #000000"
         },
         pic: {
             maxHeight: "185px",
