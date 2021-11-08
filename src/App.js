@@ -18,7 +18,7 @@ function App() {
       <ProfilePic
         name="Michael Tirona"
         picture={picture}
-        alt="Picture of Michael Tirona dressed as a Ghostbuster"
+        alt="Headshot of Michael Tirona"
       />
       <TextBanner
         title="Southern California-based content creator, web developer, and artist"
