@@ -22,14 +22,15 @@ const LinkButton = props => {
         },
         btn: {
             boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 15px 20px 0 rgba(0, 0, 0, 0.1)",
-            fontFamily: "Monaco"
+            fontFamily: "Monaco",
+            width: "15rem"
         }
     })
 
     return (
         <div style={myStyles.myMargin}>
             <h3 style={myStyles.btnText}>{title}</h3>
-            <Button style={myStyles.btn} color="danger" class="btn btn-danger btn-lg btn-block" href={link} target="blank">{name} {logo}</Button>
+            <Button style={myStyles.btn} color="danger" class="btn btn-danger btn-lg btn-block" href={link} target="blank">{logo} {name}</Button>
         </div>
     )
 }
