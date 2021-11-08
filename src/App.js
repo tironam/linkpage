@@ -63,11 +63,6 @@ function App() {
           name="Redbubble"
           link="https://www.redbubble.com/people/tironam/shop?asc=u"
         />
-        <LinkButton
-          title='Use code "tironam" for 10% off!'
-          name="Fandomion"
-          link="https://bit.ly/TironamMarvelMerch"
-        />
       </div>
       <Footer
         text="Michael Tirona 2021 | All Rights Reserved."
