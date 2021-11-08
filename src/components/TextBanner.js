@@ -3,7 +3,6 @@ import React from 'react'
 const TextBanner = props => {
     const {
         title,
-        title2,
         text
     } = props
 
