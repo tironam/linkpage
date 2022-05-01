@@ -1,30 +1,27 @@
-import React from 'react'
-import LinkButton from './components/LinkButton'
-import TextBanner from './components/TextBanner'
-import Contact from './components/Contact'
-import ProfilePic from './components/ProfilePic'
-import Footer from './components/Footer'
-import picture from './profile.jpg'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faInstagram, faTiktok } from '@fortawesome/free-brands-svg-icons'
-import { faCode, faPlayCircle } from '@fortawesome/free-solid-svg-icons'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import './App.css'
+import React from "react";
+import LinkButton from "./components/LinkButton";
+import TextBanner from "./components/TextBanner";
+import Contact from "./components/Contact";
+import ProfilePic from "./components/ProfilePic";
+import Footer from "./components/Footer";
+import picture from "./profile.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInstagram, faTiktok } from "@fortawesome/free-brands-svg-icons";
+import { faCode, faPlayCircle } from "@fortawesome/free-solid-svg-icons";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 
 function App() {
-
   return (
-    <div style={{ "textAlign": "center" }}>
+    <div style={{ textAlign: "center" }}>
       <ProfilePic
         name="Michael Tirona"
         picture={picture}
         alt="Headshot of Michael Tirona"
       />
-      <TextBanner
-        title="Southern California-based content creator, web developer, and artist"
-      />
+      <TextBanner title="Content creator, web developer, and artist based in the Orlando area" />
       <Contact />
-      <div style={{ "marginBottom": "50px"}}>
+      <div style={{ marginBottom: "50px" }}>
         <LinkButton
           title=""
           name="@tironam"
@@ -53,19 +50,13 @@ function App() {
           link="https://tironam.com/"
         />
         <LinkButton
-          title="Check me out on CodeCast"
-          name="CodeCast"
-          logo={<FontAwesomeIcon size="1x" icon={faPlayCircle} />}
-          link="https://www.codecast.io/users/tironam"
-        />
-        <LinkButton
           title="My Redbubble store"
           name="Redbubble"
           link="https://www.redbubble.com/people/tironam/shop?asc=u"
         />
       </div>
       <Footer
-        text="Michael Tirona 2021 | All Rights Reserved."
+        text="Michael Tirona 2022 | All Rights Reserved."
         text2="Page was built by me using React.JS"
       />
     </div>
