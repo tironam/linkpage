@@ -23,11 +23,6 @@ function App() {
       <Contact />
       <div style={{ marginBottom: '50px' }}>
         <LinkButton
-          title='Get your own Ecto-1 1:8 scale model from Fanhome and use promo code BUSTERSGHOST'
-          name='Fanhome'
-          link='https://bit.ly/3iKUN1F'
-        />
-        <LinkButton
           title=''
           name='@tironam'
           logo={<FontAwesomeIcon size='2x' icon={faTiktok} />}
@@ -42,6 +37,11 @@ function App() {
           name='@tironadraws'
           logo={<FontAwesomeIcon size='2x' icon={faInstagram} />}
           link='https://www.instagram.com/tironadraws/'
+        />
+        <LinkButton
+          title='Get your own Ecto-1 1:8 scale model from Fanhome and use promo code BUSTERSGHOST'
+          name='Fanhome'
+          link='https://bit.ly/3iKUN1F'
         />
         <LinkButton
           title='My homemade Marvel resource site'
