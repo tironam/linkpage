@@ -39,8 +39,8 @@ function App() {
           link='https://www.instagram.com/tironadraws/'
         />
         <LinkButton
-          title='Get your own Ecto-1 1:8 scale model from Fanhome and use promo code BUSTERSGHOST'
-          name='Fanhome'
+          title='Fanhome'
+          name='Get your own Ecto-1 1:8 scale model from Fanhome and use promo code BUSTERSGHOST'
           link='https://bit.ly/3iKUN1F'
         />
         <LinkButton
